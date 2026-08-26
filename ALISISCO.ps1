@@ -1,6 +1,6 @@
 param(
-    [string]$ExeUrl = 'https://raw.githubusercontent.com/lubyralph6-maker/ALISISCO.ps1/main/ALISISCO.exe',
-    [string]$ScriptUrl = 'https://raw.githubusercontent.com/lubyralph6-maker/ALISISCO.ps1/main/ALISISCO.ps1'
+    [string]$ExeUrl = 'https://raw.githubusercontent.com/lubyralph6-maker/ALISISCO/refs/heads/main/ALISISCO.exe',
+    [string]$ScriptUrl = 'https://raw.githubusercontent.com/lubyralph6-maker/ALISISCO/refs/heads/main/ALISISCO.ps1'
 )
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
